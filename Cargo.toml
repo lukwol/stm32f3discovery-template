@@ -1,0 +1,26 @@
+[package]
+authors = ["lukwol <wolanczyk.lukasz@gmail.com>"]
+edition = "2018"
+readme = "README.md"
+name = "stm32f3discovery-template"
+version = "0.1.0"
+
+[dependencies]
+cortex-m = "0.5.8"
+cortex-m-rt = "0.6.5"
+panic-halt = "0.2.0"
+
+[dependencies.stm32f103xx-hal]
+git = "https://github.com/japaric/stm32f103xx-hal"
+version = "0.1.0"
+
+# this lets you use `cargo fix`!
+[[bin]]
+name = "stm32f3discovery-template"
+test = false
+bench = false
+
+[profile.release]
+codegen-units = 1 # better optimizations
+debug = true # symbols are nice and they don't increase the size on Flash
+lto = true # better optimizations
