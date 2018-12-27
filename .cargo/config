@@ -1,4 +1,5 @@
-[target.thumbv7m-none-eabi]
+# [target.thumbv7em-none-eabi]
+[target.thumbv7em-none-eabihf]
 [target.'cfg(all(target_arch = "arm", target_os = "none"))']
 # uncomment ONE of these three option to make `cargo run` start a GDB session
 # which option to pick depends on your system
@@ -23,4 +24,5 @@ rustflags = [
 ]
 
 [build]
-target = "thumbv7m-none-eabi"    # Cortex-M3
+# target = "thumbv7em-none-eabi"
+target = "thumbv7em-none-eabihf"
