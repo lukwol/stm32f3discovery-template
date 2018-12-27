@@ -1,8 +1,8 @@
 [package]
-authors = ["lukwol <wolanczyk.lukasz@gmail.com>"]
+authors = ["{{authors}}"]
 edition = "2018"
 readme = "README.md"
-name = "stm32f3discovery-template"
+name = "{{project-name}}"
 version = "0.1.0"
 
 [dependencies]
@@ -16,7 +16,7 @@ version = "0.2.0"
 
 # this lets you use `cargo fix`!
 [[bin]]
-name = "stm32f3discovery-template"
+name = "{{project-name}}"
 test = false
 bench = false
 

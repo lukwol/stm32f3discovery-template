@@ -1,6 +1,6 @@
 # `stm32f3discovery-template`
 
-> A template for building applications for STM32F3DISCOVERY development board.
+> A template for building applications for STM32F303VCT6 development board.
 
 ## Dependencies
 
