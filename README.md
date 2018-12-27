@@ -12,8 +12,6 @@
 
 - [Rust (rls)](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
 
-- [Cortex-Debug](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug)
-
 ## Usage
 
 `cargo generate --git https://github.com/lukwol/stm32f3discovery-template --name=app`
