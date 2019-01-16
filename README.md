@@ -8,10 +8,6 @@
 
 - [cargo generate](https://github.com/ashleygwilliams/cargo-generate)
 
-## Optional VSCode plugins
-
-- [Rust (rls)](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)
-
 ## Usage
 
 `cargo generate --git https://github.com/lukwol/stm32f3discovery-template --name=app`
