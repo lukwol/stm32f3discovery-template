@@ -13,7 +13,7 @@ panic-halt = "*"
 [dependencies.stm32f30x-hal]
 git = "https://github.com/japaric/stm32f30x-hal"
 version = "*"
-features = ["rt"]
+# features = ["rt"]
 
 # this lets you use `cargo fix`!
 [[bin]]
